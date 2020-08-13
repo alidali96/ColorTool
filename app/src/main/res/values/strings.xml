@@ -8,4 +8,9 @@
 
     <!-- Buttons -->
     <string name="btn_random_color">Random Color</string>
+
+    <!-- Languages -->
+    <string name="english">English</string>
+    <string name="french">French</string>
+
 </resources>

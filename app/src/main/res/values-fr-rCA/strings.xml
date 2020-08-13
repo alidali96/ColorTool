@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Outil de Couleur</string>
+    <string name="red">Rouge</string>
+    <string name="green">Verte</string>
+    <string name="blue">Bleue</string>
+    <string name="btn_random_color">Couleur Aléatoire</string>
+    <string name="english">Anglaise</string>
+    <string name="french">Française</string>
+</resources>
