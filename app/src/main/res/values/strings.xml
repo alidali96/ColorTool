@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Color Tool</string>
+    <string name="app_name" translatable="false">Color Tool</string>
 
     <!-- Colors -->
     <string name="red">Red</string>
@@ -9,8 +9,22 @@
     <!-- Buttons -->
     <string name="btn_random_color">Random Color</string>
 
+    <!-- Settings -->
+    <string name="settings_menu">Settings</string>
     <!-- Languages -->
+    <string name="language">Language</string>
     <string name="english">English</string>
     <string name="french">French</string>
+
+
+    <string-array name="languages_entries">
+        <item>@string/english</item>
+        <item>@string/french</item>
+    </string-array>
+
+    <string-array name="languages_values">
+        <item>EN</item>
+        <item>FR</item>
+    </string-array>
 
 </resources>

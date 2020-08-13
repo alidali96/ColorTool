@@ -1,4 +1,4 @@
-package ca.alidali.colortool.ui.main;
+package ca.alidali.colortool.ui.color_tool;
 
 
 import android.arch.lifecycle.ViewModel;
@@ -19,7 +19,6 @@ public class ColorToolViewModel extends ViewModel {
         colorTool.setRed(colorTool.getMax());
         colorTool.setGreen(colorTool.getMax());
         colorTool.setBlue(colorTool.getMax());
-
     }
 
     public void generateRandomColor() {

@@ -1,4 +1,4 @@
-package ca.alidali.colortool.ui.main;
+package ca.alidali.colortool.ui.color_tool;
 
 import android.arch.lifecycle.ViewModelProviders;
 import android.databinding.ObservableInt;
@@ -29,8 +29,12 @@ public class ColorToolFragment extends Fragment {
     private ColorToolViewModel mViewModel;
     private ColorToolFragmentBinding binding;
 
+    private static ColorToolFragment instance;
+
     public static ColorToolFragment newInstance() {
-        return new ColorToolFragment();
+        if (instance == null)
+            instance = new ColorToolFragment();
+        return instance;
     }
 
     @Override
