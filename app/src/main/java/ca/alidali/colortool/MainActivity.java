@@ -1,10 +1,10 @@
 package ca.alidali.colortool;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
-import ca.alidali.colortool.ui.main.MainFragment;
+import ca.alidali.colortool.ui.main.ColorToolFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.main_activity);
         if (savedInstanceState == null) {
             getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.container, MainFragment.newInstance())
+                    .replace(R.id.container, ColorToolFragment.newInstance())
                     .commitNow();
         }
     }

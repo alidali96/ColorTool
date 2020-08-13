@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Color Tool</string>
+
+    <!-- Colors -->
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="blue">Blue</string>
+
+    <!-- Buttons -->
+    <string name="btn_random_color">Random Color</string>
 </resources>
